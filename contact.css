@@ -1,0 +1,65 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    background-color: antiquewhite;
+    padding: 1rem;
+    display: flex;
+    justify-content:space-between;
+}
+.logo{
+    font-size:2rem;
+    font-weight: bold;
+    color: rgb(11, 72, 72);
+}
+.logo2{
+    padding: 10px;
+    display: flex;
+    gap: 15px;
+    font-size: 1.2rem;
+
+}
+.logo2 a{
+    text-decoration: none;
+    color:black;
+}
+
+.nav-button{
+    padding: 10px 10px 10px 10px;
+    color:black;
+    border-radius: 5px;
+}
+.contact-section h2{
+    font-size: 60px;
+}
+
+.contact-section{
+    display:grid;
+    padding: 30px;
+}
+.form-group{
+            display: block;
+            font-size: 13px;
+            font-weight: 700;
+            color: #111827;
+            margin-bottom: 8px;
+            text-transform: uppercase;
+            
+        }
+
+.fotter-1{
+    padding-top: 20px;
+     background-color: #e1e4e5;
+    height: 300px;
+    color:black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.copyright{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

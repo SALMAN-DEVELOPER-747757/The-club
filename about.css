@@ -1,0 +1,189 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+nav{
+    background-color: antiquewhite;
+    padding: 1rem;
+    display: flex;
+    justify-content:space-between;
+}
+.logo{
+    font-size:2rem;
+    font-weight: bold;
+    color: rgb(11, 72, 72);
+}
+.logo2{
+    padding: 10px;
+    display: flex;
+    gap: 15px;
+    font-size: 1.2rem;
+
+}
+.logo2 a{
+    text-decoration: none;
+    color:black;
+}
+
+.nav-button{
+    padding: 10px 10px 10px 10px;
+    color:black;
+    border-radius: 5px;
+}
+
+body{
+    background-color: whitesmoke;
+}
+.about-head {
+    padding-left:20px ;
+}
+.about-head p{
+padding: 30px 0;
+line-height: 1.7;
+max-width: 700PX;
+}
+.section-title{
+    font-family: 'Merriweather';
+            font-size: 32px;
+            color: #1F2937;
+            margin-bottom: 36px;
+              padding-left: 20px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+
+}
+.value-card{
+          background: #ffffff;
+            border: 1px solid #E5E7EB;
+            border-radius: 8px;
+            padding: 32px;
+    
+}
+.team-title{
+    font-family: 'Merriweather';
+            font-size: 32px;
+            color: #1F2937;
+            margin-bottom: 36px;
+              padding-left: 20px;
+}
+.team-container{
+    display:flex;
+    justify-content: center;
+    background-color: #dadbda;
+    gap: 10px;
+}
+.avatar {
+            width: 72px;
+            height: 72px;
+            border-radius: 50%;
+            background-color: #F0FDF4;
+            color: #1E6043;
+            font-weight: 700;
+            font-size: 18px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 24px;
+            border: 1px solid #A7F3D0;
+        }
+.value-container{
+    display: flex;
+    justify-content: center;
+
+    
+}
+ .team-name {
+            font-family: 'Merriweather', serif;
+            font-size: 18px;
+            color: #111827;
+            margin-bottom: 4px;
+            font-weight: 700;
+        }
+    .team-role {
+            font-size: 13px;
+            font-weight: 600;
+            color: #1E6043;
+            margin-bottom: 16px;
+        }
+.team-desc {
+            font-size: 12px;
+            color: #6B7280;
+            line-height: 1.5;
+}
+
+
+
+/* footer box/ */
+.footer {
+            background-color: #F9FAFB;
+            padding: 60px 0 32px 0;
+            font-size: 14px;
+            color: #4B5563;
+            border-top: 1px solid #E5E7EB;
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr 1.5fr;
+            gap: 48px;
+            margin-bottom: 64px;
+        }
+
+        .footer-brand h2 {
+            font-family: 'Merriweather', serif;
+            font-size: 20px;
+            color: #1E6043;
+            margin-bottom: 16px;
+        }
+
+        .footer-brand p {
+            max-width: 340px;
+            line-height: 1.6;
+        }
+
+        .footer-links-title {
+            font-size: 14px;
+            font-weight: 600;
+            color: #111827;
+            margin-bottom: 16px;
+        }
+
+        .footer-links {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .footer-links a {
+            color: #4B5563;
+            transition: color 0.2s;
+        }
+
+        .footer-links a:hover {
+            color: #1E6043;
+        }
+
+        .contact-info {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .contact-info p {
+            line-height: 1.5;
+        }
+
+        .footer-bottom {
+            text-align: center;
+            font-size: 12px;
+            color: #6B7280;
+            padding-top: 32px;
+            border-top: 1px solid #E5E7EB;
+        }
+
